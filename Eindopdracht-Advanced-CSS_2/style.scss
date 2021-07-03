@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@use 'src/_mixins';
+@use 'src/_colors';
+
+
+
+/* MOBILE - 320px — 480px: Mobile devices.*/
+
+body {
+    background-color: $Background;
+    font-family: Noto, sans-serif;
+}
+.opdracht1 {
+    display: flex;
+    justify-content: center;
+    .testimonial {
+        position: relative;
+        background-color: #FFF;
+        border-radius: 20px;
+        height: 400px;
+        margin: 10px;
+        width: 300px;
+        text-align: center;
+        margin-top: 0px;
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        .testi-text {
+            color: black;
+            padding: 30px;
+            font-family: 'Noto Sans JP', sans-serif;
+            text-align: left;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color:dimgrey;
+            p {
+                margin: 0;
+            }
+        }
+        .testimonial-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: $BackgroundAccent;
+            border-radius: 0px 0px 20px 20px;
+            height: 35%;
+            text-align: center;
+            .round-image {
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                margin-left: -40px;
+                margin-bottom: -40px;
+                border-radius: 80%;
+                width: 80px;
+                height: 80px;
+                border: 5px solid white;
+            }
+            .info {
+                position: absolute;
+                width: 150px;
+                top: 40%;
+                left: 50%;
+                margin-left: -75px;
+                h4 {
+                    color: white;
+                    font-family: sans-serif;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin: 0;
+                    padding-bottom: 10px;
+                }
+                p {
+                    margin: 0;
+                    color: #bfbfdc;
+                    font-family: sans-serif;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+
+            }
+        }
+    }
+}
+
+.opdracht2 {
+    display: grid;
+    grid-template: repeat(3, 1fr) / 1fr;
+    .portfolio-item1 {
+        @include folio-item();
+        .img1 {
+            @include folio-img();
+        }
+        .button1 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item2 {
+        @include folio-item();
+        .img2 {
+            @include folio-img();
+        }
+        .button2 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item3 {
+        @include folio-item();
+        .img3 {
+            @include folio-img();
+        }
+        .button3 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item4 {
+        @include folio-item();
+        .img4 {
+            @include folio-img();
+        }
+        .button4 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item5 {
+        @include folio-item();
+        .img5 {
+            @include folio-img();
+        }
+        .button5 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item6 {
+        @include folio-item();
+        .img6 {
+            @include folio-img();
+        }
+        .button6 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item7 {
+        @include folio-item();
+        .img7 {
+            @include folio-img();
+        }
+        .button7 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item8 {
+        @include folio-item();
+        .img8 {
+            @include folio-img();
+        }
+        .button8 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item9 {
+        @include folio-item();
+        .img9 {
+            @include folio-img();
+        }
+        .button9 {
+            @include folio-button();
+        }
+    }
+}
+
+.opdracht3 {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    .fa {
+        padding: 0px 50px 0px 0px;
+    }
+    a {
+        display: block;
+        text-align: center;
+        padding: 17px 12px;
+        color: white;
+        font-size: 18px;
+    }
+    .box1 {
+        .blog {
+            position: relative;
+            display: block;
+            background-color: #CC0000;
+            color: white;
+            width: 300px;
+            transform: translateX(265px);
+            transition-duration: 300ms;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+            transition-delay: 100ms;
+            .fa-youtube {
+                position: absolute;
+                left: 22px;
+                padding-right: 205px;
+            }
+            &:hover {
+                transform: translateX(0px);
+            }
+        }
+    }
+    .box2 {
+        .facebook {
+            position: relative;
+            background-color: #3b5998;
+            color: white;
+            width: 300px;
+            transform: translateX(265px);
+            transition-duration: 300ms;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+            transition-delay: 100ms;
+            .fa-facebook {
+                position: absolute;
+                left: 22px;
+                padding-right: 205px;
+                margin-right: 20px;
+            }
+            &:hover {
+                transform: translateX(0px);
+            }
+        }
+    }
+    .box3 {
+        .twitter {
+            position: relative;
+            background-color: #00aced;
+            color: white;
+            width: 300px;
+            transform: translateX(265px);
+            transition-duration: 300ms;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+            transition-delay: 100ms;
+            .fa-twitter {
+                position: absolute;
+                left: 22px;
+                padding-right: 205px;
+                margin-right: 20px;
+            }
+            &:hover {
+                transform: translateX(0px);
+            }
+        }
+    }
+    .box4 {
+        .github {
+            position: relative;
+            background-color: #333;
+            color: white;
+            width: 300px;
+            transform: translateX(265px);
+            transition-duration: 300ms;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+            transition-delay: 100ms;
+            .fa-google {
+                position: absolute;
+                left: 22px;
+                padding-right: 205px;
+                margin-right: 20px;
+            }
+            &:hover {
+                transform: translateX(0px);
+            }
+        }
+    }
+    .box5 {
+        .linkedin {
+            position: relative;
+            background-color: #007bb6;
+            color: white;
+            width: 300px;
+            transform: translateX(265px);
+            transition-duration: 300ms;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+            transition-delay: 100ms;
+            .fa-linkedin {
+                position: absolute;
+                left: 22px;
+                padding-right: 205px;
+                margin-right: 20px;
+            }
+            &:hover {
+                transform: translateX(0px);
+            }
+        }
+    }
+
+}
+
+.opdracht3-text {
+    margin: 15px;
+    padding: 50px;
+}
+
+
+.h1-opdracht3 {
+    text-align: center;
+    margin: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .opdracht2 {
+        display: grid;
+        grid-template: repeat(5, 1fr) / 1fr 1fr;
+        grid-gap: 2px;
+        .portfolio-item1 {
+            @include folio-item();
+            .img1 {
+                @include folio-img();
+            }
+            .button1 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item2 {
+            @include folio-item();
+            .img2 {
+                @include folio-img();
+            }
+            .button2 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item3 {
+            @include folio-item();
+            .img3 {
+                @include folio-img();
+            }
+            .button3 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item4 {
+            @include folio-item();
+            .img4 {
+                @include folio-img();
+            }
+            .button4 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item5 {
+            @include folio-item();
+            .img5 {
+                @include folio-img();
+            }
+            .button5 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item6 {
+            @include folio-item();
+            .img6 {
+                @include folio-img();
+            }
+            .button6 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item7 {
+            @include folio-item();
+            .img7 {
+                @include folio-img();
+            }
+            .button7 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item8 {
+            @include folio-item();
+            .img8 {
+                @include folio-img();
+            }
+            .button8 {
+                @include folio-button();
+            }
+        }
+    
+        .portfolio-item9 {
+            @include folio-item();
+            .img9 {
+                @include folio-img();
+            }
+            .button9 {
+                @include folio-button();
+            }
+        }
+    }  
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+
+.opdracht2 {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 2px;
+    .portfolio-item1 {
+        @include folio-item();
+        .img1 {
+            @include folio-img();
+        }
+        .button1 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item2 {
+        @include folio-item();
+        .img2 {
+            @include folio-img();
+        }
+        .button2 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item3 {
+        @include folio-item();
+        .img3 {
+            @include folio-img();
+        }
+        .button3 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item4 {
+        @include folio-item();
+        .img4 {
+            @include folio-img();
+        }
+        .button4 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item5 {
+        @include folio-item();
+        .img5 {
+            @include folio-img();
+        }
+        .button5 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item6 {
+        @include folio-item();
+        .img6 {
+            @include folio-img();
+        }
+        .button6 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item7 {
+        @include folio-item();
+        .img7 {
+            @include folio-img();
+        }
+        .button7 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item8 {
+        @include folio-item();
+        .img8 {
+            @include folio-img();
+        }
+        .button8 {
+            @include folio-button();
+        }
+    }
+
+    .portfolio-item9 {
+        @include folio-item();
+        .img9 {
+            @include folio-img();
+        }
+        .button9 {
+            @include folio-button();
+        }
+    }
+}
+
+}

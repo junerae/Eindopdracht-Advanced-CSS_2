@@ -1,0 +1,1326 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* MIXINS */
+/* MOBILE - 320px — 480px: Mobile devices.*/
+body {
+  background-color: #c3cfe2;
+  font-family: Noto, sans-serif;
+}
+
+.opdracht1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.opdracht1 .testimonial {
+  position: relative;
+  background-color: #FFF;
+  border-radius: 20px;
+  height: 400px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  margin-top: 0px;
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.opdracht1 .testimonial .testi-text {
+  color: black;
+  padding: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: dimgrey;
+}
+
+.opdracht1 .testimonial .testi-text p {
+  margin: 0;
+}
+
+.opdracht1 .testimonial .testimonial-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #686de0;
+  border-radius: 0px 0px 20px 20px;
+  height: 35%;
+  text-align: center;
+}
+
+.opdracht1 .testimonial .testimonial-footer .round-image {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -40px;
+  margin-bottom: -40px;
+  border-radius: 80%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+}
+
+.opdracht1 .testimonial .testimonial-footer .info {
+  position: absolute;
+  width: 150px;
+  top: 40%;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.opdracht1 .testimonial .testimonial-footer .info h4 {
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.opdracht1 .testimonial .testimonial-footer .info p {
+  margin: 0;
+  color: #bfbfdc;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.opdracht2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+  -ms-grid-columns: 1fr;
+      grid-template: repeat(3, 1fr)/1fr;
+}
+
+.opdracht2 .portfolio-item1 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item1 .img1 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item1 .img1:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item1 .button1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item1 .button1 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item2 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item2 .img2 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item2 .img2:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item2 .button2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item2 .button2 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item3 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item3 .img3 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item3 .img3:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item3 .button3 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item3 .button3 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item4 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item4 .img4 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item4 .img4:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item4 .button4 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item4 .button4 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item5 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item5 .img5 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item5 .img5:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item5 .button5 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item5 .button5 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item6 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item6 .img6 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item6 .img6:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item6 .button6 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item6 .button6 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item7 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item7 .img7 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item7 .img7:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item7 .button7 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item7 .button7 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item8 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item8 .img8 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item8 .img8:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item8 .button8 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item8 .button8 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht2 .portfolio-item9 {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.opdracht2 .portfolio-item9 .img9 {
+  width: 250px;
+  text-align: center;
+  margin: 0;
+}
+
+.opdracht2 .portfolio-item9 .img9:hover {
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.opdracht2 .portfolio-item9 .button9 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 24px;
+  background-color: white;
+  border: 2px solid salmon;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.opdracht2 .portfolio-item9 .button9 a {
+  color: salmon;
+  font-family: noto, sans-serif;
+  font-style: normal;
+}
+
+.opdracht3 {
+  position: fixed;
+  top: 20%;
+  right: 0;
+}
+
+.opdracht3 .fa {
+  padding: 0px 50px 0px 0px;
+}
+
+.opdracht3 a {
+  display: block;
+  text-align: center;
+  padding: 17px 12px;
+  color: white;
+  font-size: 18px;
+}
+
+.opdracht3 .box1 .blog {
+  position: relative;
+  display: block;
+  background-color: #CC0000;
+  color: white;
+  width: 300px;
+  -webkit-transform: translateX(265px);
+          transform: translateX(265px);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.opdracht3 .box1 .blog .fa-youtube {
+  position: absolute;
+  left: 22px;
+  padding-right: 205px;
+}
+
+.opdracht3 .box1 .blog:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.opdracht3 .box2 .facebook {
+  position: relative;
+  background-color: #3b5998;
+  color: white;
+  width: 300px;
+  -webkit-transform: translateX(265px);
+          transform: translateX(265px);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.opdracht3 .box2 .facebook .fa-facebook {
+  position: absolute;
+  left: 22px;
+  padding-right: 205px;
+  margin-right: 20px;
+}
+
+.opdracht3 .box2 .facebook:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.opdracht3 .box3 .twitter {
+  position: relative;
+  background-color: #00aced;
+  color: white;
+  width: 300px;
+  -webkit-transform: translateX(265px);
+          transform: translateX(265px);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.opdracht3 .box3 .twitter .fa-twitter {
+  position: absolute;
+  left: 22px;
+  padding-right: 205px;
+  margin-right: 20px;
+}
+
+.opdracht3 .box3 .twitter:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.opdracht3 .box4 .github {
+  position: relative;
+  background-color: #333;
+  color: white;
+  width: 300px;
+  -webkit-transform: translateX(265px);
+          transform: translateX(265px);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.opdracht3 .box4 .github .fa-google {
+  position: absolute;
+  left: 22px;
+  padding-right: 205px;
+  margin-right: 20px;
+}
+
+.opdracht3 .box4 .github:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.opdracht3 .box5 .linkedin {
+  position: relative;
+  background-color: #007bb6;
+  color: white;
+  width: 300px;
+  -webkit-transform: translateX(265px);
+          transform: translateX(265px);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.opdracht3 .box5 .linkedin .fa-linkedin {
+  position: absolute;
+  left: 22px;
+  padding-right: 205px;
+  margin-right: 20px;
+}
+
+.opdracht3 .box5 .linkedin:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.opdracht3-text {
+  margin: 15px;
+  padding: 50px;
+}
+
+.h1-opdracht3 {
+  text-align: center;
+  margin: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+  .opdracht2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[5];
+    -ms-grid-columns: 1fr 1fr;
+        grid-template: repeat(5, 1fr)/1fr 1fr;
+    grid-gap: 2px;
+  }
+  .opdracht2 .portfolio-item1 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item1 .img1 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item1 .img1:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item1 .button1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item1 .button1 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item2 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item2 .img2 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item2 .img2:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item2 .button2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item2 .button2 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item3 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item3 .img3 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item3 .img3:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item3 .button3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item3 .button3 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item4 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item4 .img4 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item4 .img4:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item4 .button4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item4 .button4 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item5 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item5 .img5 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item5 .img5:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item5 .button5 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item5 .button5 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item6 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item6 .img6 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item6 .img6:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item6 .button6 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item6 .button6 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item7 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item7 .img7 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item7 .img7:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item7 .button7 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item7 .button7 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item8 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item8 .img8 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item8 .img8:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item8 .button8 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item8 .button8 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item9 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item9 .img9 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item9 .img9:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item9 .button9 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item9 .button9 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .opdracht2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[3];
+    -ms-grid-columns: (1fr)[3];
+        grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    grid-gap: 2px;
+  }
+  .opdracht2 .portfolio-item1 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item1 .img1 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item1 .img1:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item1 .button1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item1 .button1 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item2 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item2 .img2 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item2 .img2:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item2 .button2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item2 .button2 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item3 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item3 .img3 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item3 .img3:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item3 .button3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item3 .button3 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item4 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item4 .img4 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item4 .img4:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item4 .button4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item4 .button4 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item5 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item5 .img5 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item5 .img5:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item5 .button5 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item5 .button5 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item6 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item6 .img6 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item6 .img6:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item6 .button6 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item6 .button6 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item7 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item7 .img7 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item7 .img7:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item7 .button7 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item7 .button7 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item8 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item8 .img8 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item8 .img8:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item8 .button8 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item8 .button8 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+  .opdracht2 .portfolio-item9 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  .opdracht2 .portfolio-item9 .img9 {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+  }
+  .opdracht2 .portfolio-item9 .img9:hover {
+    height: auto;
+    opacity: 0;
+    -webkit-transition: opacity 350ms ease-in;
+    transition: opacity 350ms ease-in;
+  }
+  .opdracht2 .portfolio-item9 .button9 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid salmon;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .opdracht2 .portfolio-item9 .button9 a {
+    color: salmon;
+    font-family: noto, sans-serif;
+    font-style: normal;
+  }
+}
+/*# sourceMappingURL=style.css.map */
